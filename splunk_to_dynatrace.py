@@ -3,10 +3,10 @@ from requests.auth import HTTPBasicAuth
 
 # Configuration
 SPLUNK_API_URL = "https://localhost:8089/services/search/jobs"
-SPLUNK_USERNAME = "ramanath"
-SPLUNK_PASSWORD = "@Ramanath123"
-DYNATRACE_URL = "https://sno80455.live.dynatrace.com/api/v2/logs/ingest"
-DYNATRACE_API_TOKEN = "dt0c01.VQYB2IJJMH4GJCUADW6NQ7IZ.J7L34ICN2THX557BDLNPZ3YGD7Y3JUSVPEUZODW3WMOGMUTTW7NV7LTCF2LM3FXZ"
+SPLUNK_USERNAME = ""
+SPLUNK_PASSWORD = ""
+DYNATRACE_URL = ""
+DYNATRACE_API_TOKEN = ""
 
 def fetch_splunk_logs(query):
     auth = HTTPBasicAuth(SPLUNK_USERNAME, SPLUNK_PASSWORD)
